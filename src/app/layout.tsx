@@ -19,9 +19,11 @@ export const metadata: Metadata = {
   description:
     "Stop manually responding to every call, text, and email. One system answers questions, provides pricing, and schedules appointments—instantly, professionally, 24/7.",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/apple-touch-icon.png",
   },
 };
 
