@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   title: "Kerzie AI | AI-Powered Customer Communication",
   description:
     "Stop manually responding to every call, text, and email. One system answers questions, provides pricing, and schedules appointments—instantly, professionally, 24/7.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
