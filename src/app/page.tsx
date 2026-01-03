@@ -73,7 +73,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2">
                 <Shield className="w-5 h-5 text-[var(--accent-blue)]" />
-                <span>Enterprise Grade</span>
+                <span>Rock-Solid Reliability</span>
               </div>
               <div className="flex items-center gap-2">
                 <Zap className="w-5 h-5 text-[var(--accent-blue)]" />
