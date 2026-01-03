@@ -113,16 +113,16 @@ export default function About() {
               </div>
             </div>
 
-            {/* Kerzie AI */}
+            {/* Kerzie AI - Unison */}
             <div className="card">
               <div className="flex items-center gap-4 mb-6">
                 <div className="icon-box w-16 h-16 rounded-2xl">
                   <Brain className="w-8 h-8" />
                 </div>
                 <div>
-                  <h3 className="heading-md text-gradient">Kerzie AI</h3>
+                  <h3 className="heading-md text-gradient">Kerzie AI - Unison</h3>
                   <p className="text-[var(--foreground-muted)]">
-                    The complete solution
+                    The complete all-in-one solution for customer communications
                   </p>
                 </div>
               </div>

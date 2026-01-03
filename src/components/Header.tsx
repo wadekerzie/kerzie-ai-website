@@ -12,6 +12,12 @@ const navLinks = [
   { href: "/zapier-partner", label: "Zapier Partner" },
 ];
 
+const scoutLink = {
+  href: "https://kerzieconsulting.com/ai-scout-opportunity",
+  label: "Become an Applied AI Scout",
+  external: true,
+};
+
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
@@ -60,6 +66,14 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
+              <a
+                href={scoutLink.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-link font-semibold text-gradient hover:opacity-80 transition-opacity"
+              >
+                {scoutLink.label}
+              </a>
             </nav>
 
             {/* CTA Button */}
@@ -86,6 +100,15 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
+              <a
+                href={scoutLink.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-link text-lg font-semibold text-gradient hover:opacity-80 transition-opacity"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {scoutLink.label}
+              </a>
               <div className="pt-4 mt-2 border-t border-[var(--border)]">
                 <Link
                   href="/schedule"

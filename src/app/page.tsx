@@ -37,17 +37,23 @@ export default function Home() {
               <span className="text-gradient">Every Call, Text, and Email</span>
             </h1>
 
+            {/* Subheadline */}
+            <p className="text-2xl text-[var(--foreground)] mb-8 max-w-3xl mx-auto animate-fade-in-up delay-100 font-medium">
+              If you handle customer communications for a small business,<br />
+              <span className="text-gradient text-3xl font-semibold">Unison</span> is for you.
+            </p>
+
             {/* Subheading */}
-            <p className="text-xl text-[var(--foreground-muted)] mb-4 max-w-3xl mx-auto animate-fade-in-up delay-100">
+            <p className="text-xl text-[var(--foreground-muted)] mb-4 max-w-3xl mx-auto animate-fade-in-up delay-200">
               Your customers choose how they reach you. You can&apos;t control that.
             </p>
-            <p className="text-xl text-[var(--foreground)] mb-10 max-w-3xl mx-auto animate-fade-in-up delay-200">
+            <p className="text-xl text-[var(--foreground)] mb-10 max-w-3xl mx-auto animate-fade-in-up delay-300">
               But you <span className="text-gradient font-semibold">CAN</span> control
-              whether they get instant, valuable answers every single time.
+              whether they get immediate, consistent, valuable responses every single time.
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up delay-300">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up delay-400">
               <Link href="/schedule" className="btn-primary text-lg px-8 py-4">
                 <span>
                   Book Your Setup Call
@@ -60,7 +66,7 @@ export default function Home() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-[var(--foreground-muted)] animate-fade-in delay-400">
+            <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-[var(--foreground-muted)] animate-fade-in delay-500">
               <div className="flex items-center gap-2">
                 <Clock className="w-5 h-5 text-[var(--accent-blue)]" />
                 <span>24/7 Availability</span>
@@ -100,10 +106,7 @@ export default function Home() {
                 One Knowledge Base
               </h3>
               <p className="text-[var(--foreground-muted)] text-lg">
-                We build your single source of truth—fixed, consistent, deterministic.
-              </p>
-              <p className="text-[var(--foreground-muted)] mt-3 text-lg">
-                AI retrieves the right answer <span className="text-[var(--accent-blue)] font-medium">every time</span>.
+                We build your single source of truth—consistent, accurate, and always available.
               </p>
             </div>
 

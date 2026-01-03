@@ -212,11 +212,11 @@ export default function HowItWorks() {
           <div className="max-w-4xl mx-auto text-center">
             <span className="badge mb-6 inline-block">The Process</span>
             <h1 className="heading-xl mb-6">
-              How <span className="text-gradient">Kerzie AI</span> Works
+              How <span className="text-gradient">Unison</span> Works
             </h1>
             <p className="text-xl text-[var(--foreground-muted)] max-w-3xl mx-auto">
               From knowledge base to 24/7 customer communication—here&apos;s
-              exactly how we transform your business.
+              exactly how Unison transforms your business.
             </p>
           </div>
         </div>
@@ -472,7 +472,7 @@ export default function HowItWorks() {
             Ready to <span className="text-gradient">Get Started?</span>
           </h2>
           <p className="text-xl text-[var(--foreground-muted)] mb-10 max-w-2xl mx-auto">
-            Schedule a discovery call and see how Kerzie AI can transform your
+            Schedule a discovery call and see how Unison can transform your
             customer communication.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
