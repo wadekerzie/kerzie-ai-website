@@ -20,9 +20,11 @@ export const metadata: Metadata = {
     "Stop manually responding to every call, text, and email. One system answers questions, provides pricing, and schedules appointments—instantly, professionally, 24/7.",
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16.png", type: "image/png", sizes: "16x16" },
     ],
-    shortcut: "/favicon.png",
+    shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
 };

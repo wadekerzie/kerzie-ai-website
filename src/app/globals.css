@@ -205,7 +205,13 @@ html {
 
 .nav-link:hover {
   color: var(--foreground);
-  background: rgba(45, 42, 38, 0.05);
+  background-color: rgba(45, 42, 38, 0.05);
+}
+
+/* Preserve gradient background on hover for text-gradient nav links */
+.nav-link.text-gradient:hover {
+  background-color: transparent;
+  filter: brightness(1.1);
 }
 
 .nav-link-active {

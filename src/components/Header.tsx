@@ -70,7 +70,7 @@ export default function Header() {
                 href={scoutLink.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="nav-link font-semibold text-gradient hover:opacity-80 transition-opacity"
+                className="nav-link font-semibold text-gradient hover:brightness-110 hover:scale-105 transition-all"
               >
                 {scoutLink.label}
               </a>
@@ -104,7 +104,7 @@ export default function Header() {
                 href={scoutLink.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="nav-link text-lg font-semibold text-gradient hover:opacity-80 transition-opacity"
+                className="nav-link text-lg font-semibold text-gradient hover:brightness-110 hover:scale-105 transition-all"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {scoutLink.label}
